@@ -23,3 +23,7 @@ UPDATE account
 SET balance = $2
 WHERE id = $1
 RETURNING *;
+
+-- name: DeleteAccount :exec
+DELETE FROM account
+WHERE id = $1;
