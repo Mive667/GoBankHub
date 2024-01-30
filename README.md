@@ -44,3 +44,6 @@ then run the command to make a migration:
 ``` zsh
 migrate -path db/migration -database "postgresql://root_user:123456@localhost:5432/gobankhub?sslmode=disable" -verbose up
 ```
+
+## Go Modules
+`go mod tidy` to update the dependencies.
