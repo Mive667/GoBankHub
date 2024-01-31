@@ -47,3 +47,7 @@ migrate -path db/migration -database "postgresql://root_user:123456@localhost:54
 
 ## Go Modules
 `go mod tidy` to update the dependencies.
+
+## CI/CD
+### Postgres service container
+[Docs](https://docs.github.com/en/actions/using-containerized-services/creating-postgresql-service-containers)
