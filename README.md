@@ -59,3 +59,6 @@ migrate -path db/migration -database "postgresql://root_user:123456@localhost:54
 ### Viper
 [Docs](https://pkg.go.dev/github.com/spf13/viper)
 Configur the environment files.
+
+### mockgen
+mockgen -package mockdb -destination db/mock/store.go github.com/Mive667/GoBankHub/db/sqlc Store
